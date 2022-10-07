@@ -1,0 +1,53 @@
+Desktop App
+Single Player
+Option to select "X" or "0"
+Time for taking move (15 seconds)
+Maintain Record (last 5 game)
+Undo option (max 2)
+Exit option
+
+
+Extended version - 
+Multiplayer
+Difficulty level
+Increase limit of Records
+Winning strategy define
+
+
+
+Classes - 
+
+1. Game 
+2. Computer
+3. Board
+4. Record
+
+
+1. Game 
+    a) chooseGameMode
+    b) chooseSymbol
+    c) chooseTurn
+    d) moveTimer
+    e) makeMovement
+    f) fetchPlayerMove
+    g) fetchComputerMove
+    h) undoLastMove
+    i) checkWinner
+    j) storeRecord
+    k) exitGame
+
+2. Board
+    a) initializeBoard
+    b) updateBoard
+    c) checkWinner
+    d) checkRow
+    e) checkCol
+    f) checkDiagonal
+
+3. Computer
+    a) findEmptySlot
+    b) nextMove
+
+4. Record 
+    a) updateTable
+    b) fetchRecords
