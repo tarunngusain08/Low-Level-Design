@@ -24,11 +24,11 @@ Classes -
 
 
 1. Game 
-    a) chooseGameMode
-    b) chooseSymbol
-    c) chooseTurn
-    d) moveTimer
-    e) makeMovement
+    a) setGameMode          X
+    b) chooseSymbol         X
+    c) chooseTurn           X
+    d) moveTimer            X
+    e) move
     f) fetchPlayerMove
     g) fetchComputerMove
     h) undoLastMove
