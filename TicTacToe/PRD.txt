@@ -43,6 +43,7 @@ Classes -
     d) checkRow
     e) checkCol
     f) checkDiagonal
+    g) DisplayBoard
 
 3. Computer
     a) findEmptySlot

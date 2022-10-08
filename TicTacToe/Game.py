@@ -55,3 +55,6 @@ class Game:
 
     def exitGame(self):
         return self.storeRecord()
+    
+    def displayBoard(self)->None:
+        self.board.displayBoard()
